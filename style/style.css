@@ -432,5 +432,131 @@ body{
     outline: none;
 }
 
+.popular__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 88px;
+    padding: 0 23px;
+    background-color: #f9f5f0;
+    margin-bottom: 20px;
+}
+
+.popular__top-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #32425c;
+    padding-right: 10px;
+}
+
+.popular__top-link{
+    max-width: 250px;
+    width: 100%;
+    background-color: #ee3643;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.popular__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.popular__item{
+    border: 1px solid #f9f5f0;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 218px;
+    widows: 100%;
+}
+
+.popular__item-img img{
+    width: 100%
+}
+
+.popular__item-title{
+    font-size: 18px;
+    line-height: 20px;
+    max-width: 162px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.popular__item-price{
+    color: #a9a9a9;
+    font-size: 17px;
+    text-decoration: line-through;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.popular__item-sale{
+    color: #fff;
+    background-color: #ee3643;
+    padding: 10px 10px;
+    border-radius: 4px;
+    max-width: 144px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.partner__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.partner__item{
+    border: 1px solid #f9f5f0;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    flex-basis: calc(25% - 15px);
+    margin-left: 15px;
+    text-align: center;
+    min-height: 135px;
+    position: relative;
+}
+
+.partner__item-link{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
